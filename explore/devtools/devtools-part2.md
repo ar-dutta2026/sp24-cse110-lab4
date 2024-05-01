@@ -1,0 +1,2 @@
+1. The bug is essentially both inputted numbers are taken as a string so they concatenate when you try to add them (3 + 2 would concatenate to 32)
+2. To fix this problem we use the parseInt() function on num1 and num2 to make sure we add the integers together and not concatenate the strings.
